@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="models.PostTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-07-01T10:09:53" hostname="gideon-HP-EliteBook-Folio-9480m" time="0.007">
+<testsuite name="models.PostTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-07-02T08:15:11" hostname="gideon-HP-EliteBook-Folio-9480m" time="0.02">
   <properties/>
-  <testcase name="PostInstantiatesWithContent_true" classname="models.PostTest" time="0.006"/>
+  <testcase name="PostInstantiatesWithContent_true" classname="models.PostTest" time="0.015"/>
+  <testcase name="getId_postsInstantiatesWithAnID_1" classname="models.PostTest" time="0.0"/>
+  <testcase name="getCreatedAt_instantiatesWithCurrentTime_today" classname="models.PostTest" time="0.002"/>
+  <testcase name="AllPostsAreCorrectlyReturned_true" classname="models.PostTest" time="0.001"/>
+  <testcase name="getPublished_isFalseAfterInstantiation_false" classname="models.PostTest" time="0.0"/>
+  <testcase name="AllPostsContainsAllPosts_true" classname="models.PostTest" time="0.001"/>
   <testcase name="NewPostObjectGetsCorrectlyCreated_true" classname="models.PostTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
